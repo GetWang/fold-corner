@@ -1,10 +1,8 @@
 # fold-corner
 
-***************************************
 - **GitHub:** [https://github.com/GetWang](https://github.com/GetWang)
 - **My Blog:** [getwang.github.io](getwang.github.io)
 
-***************************************
 #### A jQuery plugin which makes the effect of folding paper corner
 
 ***************************************
@@ -22,4 +20,4 @@ $('div.test').corner({
 
 ***************************************
 #### Preview:
-![预览折叠边角效果](./img/screenshot.png)
+![预览折叠边角效果](https://github.com/GetWang/fold-corner/blob/master/img/screenshot.PNG)
