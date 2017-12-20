@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fold-Corner</title>
+	<style type="text/css">
+		html, body {
+			width: 100%;
+			height: 100%;
+			background: #ccc;
+		}
+		.parent {
+			width: 180px;
+			height: 110px;
+			margin: 20px auto;
+		}
+		.sm {
+			width: 80px;
+			height: 110px;
+			float: left;
+			margin-right: 20px;
+			background: #fe8738;
+		}
+		.sm-2 {
+			margin-right: 0;
+			background: #95d227;
+		}
+		.md {
+			width: 300px;
+			height: 150px;
+			margin: 0 auto 40px;
+			background: #e7e7e7;
+		}
+		.lg {
+			width: 500px;
+			height: 200px;
+			margin: 0 auto;
+			background: #e7e7e7;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="sm sm-1"></div>
+		<div class="sm sm-2"></div>
+	</div>
+	<div class="md"></div>
+	<div class="lg"></div>
+	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/fold-corner.min.js"></script>
+	<script type="text/javascript">
+		$('.sm').foldCorner({ size: 20, background: '#ccc' });
+		$('.md').foldCorner({ size: 30, background: '#ccc' });
+		$('.lg').foldCorner({ background: '#ccc' });
+	</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "fold-corner",
+  "version": "1.0.0",
+  "title": "jQuery Folding Paper Corner",
+  "description": "A jQuery plugin which makes the effect of folding paper corner",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetWang/fold-corner.git"
+  },
+  "keywords": [
+    "javascript",
+    "jquery",
+    "paper-corner",
+    "fold"
+  ],
+  "author": { 
+    "name": "GetWang",
+    "url": "https://getwang.github.io",
+    "email": "wang_dresimap@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GetWang/fold-corner/issues"
+  },
+  "homepage": "https://github.com/GetWang/fold-corner",
+  "docs": "https://github.com/GetWang/fold-corner",
+  "download": "https://github.com/GetWang/fold-corner",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
+
